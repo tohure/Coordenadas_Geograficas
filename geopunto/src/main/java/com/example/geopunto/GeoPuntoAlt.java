@@ -3,7 +3,7 @@ package com.example.geopunto;
 
 public class GeoPuntoAlt extends GeoPunto{
 
-    private double altitud;
+    protected double altitud;
     /**
      * Constructor que recibe los metodos necesarios longitud y latitud
      *
@@ -20,4 +20,6 @@ public class GeoPuntoAlt extends GeoPunto{
 
         return super.distancia(punto);
     }
+
+
 }
